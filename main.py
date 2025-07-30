@@ -56,5 +56,5 @@ async def checkout(msg: types.Message):
     await msg.reply("✅ Дархост ба мо ирсол шуд. Мо зуд тамос мегирем!")
     cart[user_id] = []
 
-if _name_ == "_main_":
+if _name_ == '_main_':
     executor.start_polling(dp, skip_updates=True)
